@@ -1,0 +1,22 @@
+Payload: {Customer_Name=Juck, State=ACT, DOB=12/11/1985, RegistrationNumber=WAZ-127, id=rest_BD114}
+Response Time : 16
+Status line: HTTP/1.1 201 Created
+JsonPath_State: null
+JsonPath_State: null
+StatusCode: 201
+Body: io.restassured.internal.RestAssuredResponseImpl@253c1256
+Payload: {Customer_Name=Peter, State=VIC, DOB=12/11/1978, RegistrationNumber=DQL-589, id=rest_BD115 Tom}
+Response Time : 1729
+Status line: HTTP/1.1 201 Created
+StatusCode: 201
+Payload: {Customer_Name=Hendry, State=ACT, DOB=31/01/1975, RegistrationNumber=WWI-500, id=rest_BD116}
+Response Time : 1941
+Status line: HTTP/1.1 201 Created
+StatusCode: 201
+Response Body: {
+  "RegistrationNumber": "WWI-500",
+  "id": "rest_BD116",
+  "Customer_Name": "Hendry",
+  "State": "ACT",
+  "DOB": "31/01/1975"
+}

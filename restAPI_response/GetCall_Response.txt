@@ -1,0 +1,14 @@
+Response Time : 1870
+Status line: HTTP/1.1 200 OK
+Header: null
+StatusCode: 200
+Body: [
+  {
+    "firstName": "Bery",
+    "lastName": "Jill",
+    "SubID": 505,
+    "id": "rest_108",
+    "EmpID": 128,
+    "DeptID": 203
+  }
+]

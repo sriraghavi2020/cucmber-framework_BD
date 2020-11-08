@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.125977">
+<testcase classname="restAPI old method to save the output in file" name="Delete Call using old method" time="6.125977">
+<system-out><![CDATA[Given Base URI for API call.................................................passed
+Then API req URI............................................................passed
+Then Payload for Delete call rest_BD116.....................................passed
+Then Hitting the API with Delete call rest_BD116............................passed
+Then Storing the Delete call response \restAPI_response\DeleteCall_Response.txt.passed
+]]></system-out>
+</testcase>
+</testsuite>

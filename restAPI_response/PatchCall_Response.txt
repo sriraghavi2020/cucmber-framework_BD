@@ -1,0 +1,26 @@
+Patch call for ID: {id=rest_BD112}
+Response Time : 2
+StatusCode: 200
+Response body: io.restassured.internal.RestAssuredResponseImpl@2b50150
+Patch call for ID: {id=rest_BD103}
+Response Time : 1
+StatusCode: 200
+Response body: io.restassured.internal.RestAssuredResponseImpl@15b986cd
+Patch call for ID: {id=rest_BD103}
+Response Time : 140
+StatusCode: 200
+Response body: io.restassured.internal.RestAssuredResponseImpl@6b350309
+Patch call for ID: {id=WA}
+Response Time : 1
+StatusCode: 200
+Response body: io.restassured.internal.RestAssuredResponseImpl@15b986cd
+Patch call for ID: {State=WA}
+Response Time : 1
+StatusCode: 200
+Response body: {
+  "RegistrationNumber": "RRI-654",
+  "id": "rest_BD112",
+  "Customer_Name": "Jill",
+  "State": "WA",
+  "DOB": "30/12/1899"
+}

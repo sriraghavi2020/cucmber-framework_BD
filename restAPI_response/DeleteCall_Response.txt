@@ -1,0 +1,30 @@
+Id that are deleted: {id=rest_BD103}
+Response Time : 2
+StatusCode: 200
+Id that are deleted: {id=rest_BD104}
+Response Time : 0
+StatusCode: 200
+Id that are deleted: {id=rest_BD105}
+Response Time : 0
+StatusCode: 200
+Id that are deleted: {id=rest_BD111}
+Response Time : 1
+StatusCode: 200
+Id that are deleted: {id=rest_BD110}
+Response Time : 0
+StatusCode: 200
+Id that are deleted: {id=rest_BD109}
+Response Time : 0
+StatusCode: 200
+Id that are deleted: {id=L4xflQ8}
+Response Time : 1
+StatusCode: 200
+Id that are deleted: {id=gKNuOCI}
+Response Time : 0
+StatusCode: 200
+Id that are deleted: {id=l3CeDc7}
+Response Time : 0
+StatusCode: 200
+Id that are deleted: {id=rest_BD116}
+Response Time : 2
+StatusCode: 200

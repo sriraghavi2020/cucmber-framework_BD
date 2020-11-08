@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: BDFramework.TestRunner.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.763 s - in BDFramework.TestRunner.RunCukesTest

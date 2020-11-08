@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-08T22:36:58.869Z",
+        "line": 36,
+        "name": "Delete Call using old method",
+        "description": "",
+        "id": "restapi-old-method-to-save-the-output-in-file;delete-call-using-old-method;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 280293100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Base URI for API call",
+            "match": {
+              "location": "restAPI_ResponseStepDef.base_URI_for_API_call(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "http://localhost:3000"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7013300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "API req URI",
+            "match": {
+              "location": "restAPI_ResponseStepDef.API_req_URI(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "/BudgetDirect_Car"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1757400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Payload for Delete call rest_BD116",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rest_BD116",
+                  "offset": 24
+                }
+              ],
+              "location": "restAPI_ResponseStepDef.payload_for_Delete_call(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4872129900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Hitting the API with Delete call rest_BD116",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rest_BD116",
+                  "offset": 33
+                }
+              ],
+              "location": "restAPI_ResponseStepDef.hitting_the_API_with_Delete_call(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20399000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Storing the Delete call response \\restAPI_response\\DeleteCall_Response.txt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\\restAPI_response\\DeleteCall_Response.txt",
+                  "offset": 33
+                }
+              ],
+              "location": "restAPI_ResponseStepDef.storing_the_Delete_call_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteCall_Response"
+          }
+        ]
+      }
+    ],
+    "name": "restAPI old method to save the output in file",
+    "description": "",
+    "id": "restapi-old-method-to-save-the-output-in-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/BDFramework/FeatureFiles/restAPI_Response.feature",
+    "tags": []
+  }
+]

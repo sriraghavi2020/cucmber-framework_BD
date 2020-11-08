@@ -1,0 +1,8 @@
+BDFramework\TestRunner\StepDefenition\getAQuoteNavigationStepDef.class
+BDFramework\TestRunner\StepDefenition\GetAQuoteCarStepDef.class
+BDFramework\Pages\GetAQuoteCarPage.class
+BDFramework\TestRunner\StepDefenition\WDManager.class
+BDFramework\TestRunner\RunCukesTest.class
+BDFramework\TestRunner\StepDefenition\homePageStepDef.class
+BDFramework\Pages\getAQuoteNavigationPage.class
+BDFramework\Pages\homePage.class
