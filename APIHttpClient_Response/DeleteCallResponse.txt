@@ -1,0 +1,36 @@
+Status code: 200
+Deleted content id: DUP1httpClients_204
+Status code: 200
+Deleted content id: DUP2httpClients_204
+Status code: 200
+Deleted content id: DUP3httpClients_204
+Status code: 200
+Deleted content id: DUP4httpClients_204
+Status code: 200
+Deleted content id: DUP5httpClients_204
+Status code: 200
+Deleted content id: DUP6httpClients_204
+Status code: 200
+Deleted content id: DUP7httpClients_204
+Status code: 200
+Deleted content id: DUP8httpClients_204
+Status code: 200
+Deleted content id: DUP9httpClients_204
+Status code: 200
+Deleted content id: DUP10httpClients_204
+Status code: 200
+Deleted content id: DUP11httpClients_204
+Status code: 200
+Deleted content id: DUP12httpClients_204
+Status code: 200
+Deleted content id: DUP13httpClients_204
+Status code: 200
+Deleted content id: DUP14httpClients_204
+Status code: 200
+Deleted content id: DUP15httpClients_204
+Status code: 200
+Deleted content id: DUP16httpClients_204
+Status code: 200
+Deleted content id: DUP17httpClients_204
+Status code: 200
+Deleted content id: DUP18httpClients_204

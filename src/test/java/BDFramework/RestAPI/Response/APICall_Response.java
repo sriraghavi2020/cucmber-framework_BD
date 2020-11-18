@@ -8,13 +8,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-
 import org.json.simple.JSONObject;
-
 import io.cucumber.datatable.DataTable;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -30,6 +27,7 @@ public class APICall_Response {
 	int SCode;
 	Map<String, Object> map; 
 
+	
 	public void getRequest(DataTable uri) {
 		List<List<String>> requestURL = uri.asLists();
 
@@ -41,6 +39,7 @@ public class APICall_Response {
 		reponse_StatusLine = response.getStatusLine();
 	}
 
+	
 	public void Storing_the_GetCall_Response(String filePath) {
 
 		try {
@@ -76,6 +75,7 @@ public class APICall_Response {
 		this.SCode = SCode;
 	}
 
+	
 	public void payloay_for_post(String id, String cus_name, String regNum, String state, String DOB) {
 		map = new HashMap<String, Object>();
 		map.put("id", id);
@@ -84,6 +84,7 @@ public class APICall_Response {
 		map.put("State", state);
 		map.put("DOB", DOB);
 	}
+	
 
 	public void postRequest() {
 
@@ -104,6 +105,7 @@ public class APICall_Response {
 
 	}
 
+	
 	public void Storing_the_PostCall_Response(String filePath) {
 
 		try {
@@ -121,6 +123,7 @@ public class APICall_Response {
 
 		}
 	}
+	
 
 	public void payLoad_for_DeleteCall(String id) {
 		map = new HashMap<String, Object>();
@@ -128,22 +131,20 @@ public class APICall_Response {
 
 	}
 
-	
+
 	public void payLoad_for_PatchCall(String state) {
 		map = new HashMap<String, Object>();
 		map.put("State", state);
 
 	}
-	
-	
-	
+
+
 	public void payLoad_for_PutCall(String name) {
 		map = new HashMap<String, Object>();
 		map.put("Customer_Name", name);
 
 	}
-	
-	
+
 
 	public void DeleteCallMethod(String id) {
 
@@ -194,11 +195,11 @@ public class APICall_Response {
 		response_StatusCode = response.getStatusCode();
 		Response_time = response.getTimeIn(TimeUnit.SECONDS);
 		response_body = response.body().asString();
-		
+
 
 	}
-	
-	
+
+
 	public void storing_PatchCall_Response(String filePath) {
 		try {
 			File file = new File(System.getProperty("user.dir")+filePath);
@@ -214,8 +215,8 @@ public class APICall_Response {
 
 		}
 	}
-	
-	
+
+
 	public void PutCallMethod(String id) {
 
 		JSONObject jsonPayload = new JSONObject(map);
@@ -231,7 +232,7 @@ public class APICall_Response {
 		response_StatusCode = response.getStatusCode();
 		Response_time = response.getTimeIn(TimeUnit.SECONDS);
 		response_body = response.body().asString();
-		
+
 
 	}
 

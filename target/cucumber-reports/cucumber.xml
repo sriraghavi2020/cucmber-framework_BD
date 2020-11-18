@@ -1,11 +1,1074 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.125977">
-<testcase classname="restAPI old method to save the output in file" name="Delete Call using old method" time="6.125977">
-<system-out><![CDATA[Given Base URI for API call.................................................passed
-Then API req URI............................................................passed
-Then Payload for Delete call rest_BD116.....................................passed
-Then Hitting the API with Delete call rest_BD116............................passed
-Then Storing the Delete call response \restAPI_response\DeleteCall_Response.txt.passed
+<testsuite failures="11" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="28" time="48.314522">
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing" time="1.868684">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP2httpClients_204.............passed
 ]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 2" time="0.030118">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP3httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 3" time="0.029627">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP4httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 4" time="0.025955">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP5httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 5" time="0.035421">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP6httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 6" time="0.036288">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP7httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 7" time="0.038161">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP8httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 8" time="0.039276">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP9httpClients_204.............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 9" time="0.027042">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP10httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 10" time="0.02963">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP11httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 11" time="0.034776">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP12httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 12" time="0.575949">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP13httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 13" time="0.060811">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP14httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 14" time="0.072797">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP15httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 15" time="0.548934">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP16httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 16" time="0.055197">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP17httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 17" time="0.056863">
+<system-out><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................passed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.passed
+Then Asserting the response for delete call DUP18httpClients_204............passed
+]]></system-out>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 18" time="4.077949">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP19httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 19" time="4.107601">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP20httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 20" time="4.062759">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP21httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 21" time="4.059014">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP22httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 22" time="4.087507">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP23httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 23" time="4.059299">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP24httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 24" time="4.093866">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP25httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 25" time="4.049895">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP26httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 26" time="4.060378">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP27httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 27" time="4.046929">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP28httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
+</testcase>
+<testcase classname="API Testing using HTTP Client" name=": API Get call testing 28" time="4.043796">
+<failure message="org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)&#13;&#10;&#9;at java.net.Socket.connect(Socket.java:606)&#13;&#10;&#9;at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)&#13;&#10;&#9;at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)&#13;&#10;&#9;at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)&#13;&#10;&#9;at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)&#13;&#10;&#9;at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;&#10;"><![CDATA[Given URL for delete request................................................passed
+Then Header for the delete request..........................................passed
+Then Hitting API with delete request........................................failed
+Then Storing the delete call response to file \APIHttpClient_Response\\DeleteCallResponse.txt.skipped
+Then Asserting the response for delete call DUP29httpClients_204............skipped
+
+StackTrace:
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:3000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at ✽.Hitting API with delete request(file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at BDFramework.HTTP.Client.API.API_DeleteCall.deleteCall_API_request(API_DeleteCall.java:67)
+	at BDFramework.TestRunner.StepDefenition.HttpClientAPIStepDef.hitting_API_with_delete_request(HttpClientAPIStepDef.java:88)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]></failure>
 </testcase>
 </testsuite>
