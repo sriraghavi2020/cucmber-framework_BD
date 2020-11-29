@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import org.apache.http.ParseException;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -20,10 +21,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.testng.Assert;
-
 import com.google.gson.Gson;
-
 import BDFramework.HTTP.Client.API.postPayLoad.payLoad;
+import BDFramework.RetrivingDataFromExcel.DataFromExcel;
 import io.cucumber.datatable.DataTable;
 
 public class API_PostCall {
@@ -36,6 +36,10 @@ public class API_PostCall {
 
 
 	payLoad payloadclass;
+
+	DataFromExcel payloadFromExcel;
+	int RowNum;
+	String ExcelpayloadAsString;
 
 	String URL;
 	int statusCode;
@@ -68,6 +72,7 @@ public class API_PostCall {
 		System.out.println(header);
 	}
 
+
 	public void payLoad_For_postCall(DataTable payload) throws IOException {
 		List<Map<String, String>> load = payload.asMaps();
 		//		PLoad = new HashMap<String, Object>();
@@ -86,11 +91,39 @@ public class API_PostCall {
 
 
 	}
+
+
 	public void postCallRequest() throws ClientProtocolException, IOException {
 		CloseableHttpClient link = HttpClients.createDefault();
 
 		HttpPost postURL = new HttpPost(URL);
 		postURL.setEntity(new StringEntity(payLoadAsString));
+		for(Map.Entry<String, String> entry: header.entrySet()) {
+			postURL.addHeader(entry.getKey(), entry.getValue());
+		}
+		response = link.execute(postURL);
+	}
+
+
+	public void postcallRequestForRownum(int rowNum) {
+		RowNum = rowNum; 
+	}
+
+
+	public void retrivingData(String excelFilePath, String sheetName) {
+
+		payloadFromExcel = new DataFromExcel(System.getProperty("user.dir")+excelFilePath, sheetName);
+		payloadFromExcel.ReadData(RowNum);
+		ExcelpayloadAsString = payloadFromExcel.classpayload();
+	}
+
+
+	public void postCallRequestForExcelPayload() throws ClientProtocolException, IOException {
+
+		CloseableHttpClient link = HttpClients.createDefault();
+
+		HttpPost postURL = new HttpPost(URL);
+		postURL.setEntity(new StringEntity(ExcelpayloadAsString));
 		for(Map.Entry<String, String> entry: header.entrySet()) {
 			postURL.addHeader(entry.getKey(), entry.getValue());
 		}
@@ -105,7 +138,7 @@ public class API_PostCall {
 		jsonObject = new JSONObject(responseAsString);
 
 		File file = new File(System.getProperty("user.dir")+filePath);
-		FileOutputStream fo = new FileOutputStream(file);
+		FileOutputStream fo = new FileOutputStream(file, true);
 		pr = new PrintWriter(fo);
 		pr.println("Status code: "+statusCode);
 		pr.println("response as string: "+responseAsString);
@@ -119,7 +152,7 @@ public class API_PostCall {
 		Assert.assertEquals(response_status_code_201, statusCode, "Status code is "+statusCode+" and the expected");
 
 		JSONParser parser = new JSONParser();
-		Assert.assertEquals(parser.parse(responseAsString), parser.parse(payLoadAsString), "Assertion");
+		Assert.assertEquals(parser.parse(responseAsString), parser.parse(ExcelpayloadAsString), "Assertion");
 		pr.println("JSON payload is asserted");
 
 		pr.flush();

@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty",  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "json:target/cucumber-reports/CucumberTestReport.json", "junit:target/cucumber-reports/cucumber.xml", "html:target/cucumber-html-reports"},
         monochrome = true,
         dryRun = false, 
-        tags = "@DeleteCall"
+        tags = "@GetCall"
 )
 public class RunCukesTest {
 }

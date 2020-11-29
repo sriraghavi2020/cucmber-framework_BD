@@ -34,3 +34,27 @@ Status code: 200
 Deleted content id: DUP17httpClients_204
 Status code: 200
 Deleted content id: DUP18httpClients_204
+Status code: 200
+Deleted content id: DUP19httpClients_204
+Status code: 200
+Deleted content id: DUP20httpClients_204
+Status code: 200
+Deleted content id: DUP21httpClients_204
+Status code: 200
+Deleted content id: DUP22httpClients_204
+Status code: 200
+Deleted content id: DUP23httpClients_204
+Status code: 200
+Deleted content id: DUP24httpClients_204
+Status code: 200
+Deleted content id: DUP25httpClients_204
+Status code: 200
+Deleted content id: DUP26httpClients_204
+Status code: 200
+Deleted content id: DUP27httpClients_204
+Status code: 200
+Deleted content id: DUP28httpClients_204
+Status code: 200
+Deleted content id: DUP29httpClients_204
+Status code: 200
+Deleted content id: yj8AnCB

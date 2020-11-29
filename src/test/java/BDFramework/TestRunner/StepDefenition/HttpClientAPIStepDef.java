@@ -97,5 +97,20 @@ public class HttpClientAPIStepDef {
 	public void asserting_the_response_for_delete_call(String id) throws IOException, org.json.simple.parser.ParseException {
 		apiDeletecall.assertion(id);
 	}
+	
+	@Then("^Post call for Row (.*)$")
+	public void post_call_for_Row(int rowNum) {
+		apiPostcall.postcallRequestForRownum(rowNum);
+	}
+	@Then("^Payload for post request from Excel file (.*)and sheetName is (.*)$")
+	public void payload_for_post_request_from_Excel_file_and_sheetName_is(String XlfilePath, String sheetName) {
+		
+		apiPostcall.retrivingData(XlfilePath, sheetName);
+	}
+	
+	@Then("^Hitting API with post call with payload at Excel$")
+	public void hitting_API_with_post_call_with_payload_at_Excel() throws ClientProtocolException, IOException {
+		apiPostcall.postCallRequestForExcelPayload();
+	}
 
 }

@@ -1,0 +1,44 @@
+Status code: 201
+response as string: {
+  "firstName": "Hill",
+  "lastName": "Simson",
+  "departmentID": 204,
+  "id": "Excel_301",
+  "employeeID": 131,
+  "subjectID": 500
+}
+response as JSON Object: {"firstName":"Hill","lastName":"Simson","departmentID":204,"employeeID":131,"id":"Excel_301","subjectID":500}
+JSON payload is asserted
+Status code: 201
+response as string: {
+  "firstName": "Phill",
+  "lastName": "Joshep",
+  "departmentID": 201,
+  "id": "Excel_302",
+  "employeeID": 132,
+  "subjectID": 501
+}
+response as JSON Object: {"firstName":"Phill","lastName":"Joshep","departmentID":201,"employeeID":132,"id":"Excel_302","subjectID":501}
+JSON payload is asserted
+Status code: 201
+response as string: {
+  "firstName": "Sany",
+  "lastName": "Smith",
+  "departmentID": 202,
+  "id": "Excel_303",
+  "employeeID": 133,
+  "subjectID": 503
+}
+response as JSON Object: {"firstName":"Sany","lastName":"Smith","departmentID":202,"employeeID":133,"id":"Excel_303","subjectID":503}
+JSON payload is asserted
+Status code: 201
+response as string: {
+  "firstName": "Lilly",
+  "lastName": "Dale",
+  "departmentID": 203,
+  "id": "Excel_304",
+  "employeeID": 134,
+  "subjectID": 502
+}
+response as JSON Object: {"firstName":"Lilly","lastName":"Dale","departmentID":203,"employeeID":134,"id":"Excel_304","subjectID":502}
+JSON payload is asserted
