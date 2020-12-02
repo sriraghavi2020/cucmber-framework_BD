@@ -10,15 +10,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-//import io.cucumber.java.After;
-//import io.cucumber.java.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WDManager{
 		private WebDriver driver;
 		public Properties prop;
 	
-	//@Before
+	@Before
     public void browserSetup(){
 		try {
 	        FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\BDFramework\\basePackage\\config.properties");
@@ -51,7 +51,7 @@ public class WDManager{
     	return driver;
     }
     
-    //@After
+    @After
     public void tearDown() {
     	if(driver !=null) {
     		driver.close();

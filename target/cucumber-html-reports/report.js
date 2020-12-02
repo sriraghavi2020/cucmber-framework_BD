@@ -1,100 +1,88 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/BDFramework/FeatureFiles/homePage.feature");
 formatter.feature({
-  "name": "API Testing using HTTP Client",
+  "name": "Home Page",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": ": API Get call testing",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@GetCall"
-    }
-  ]
-});
-formatter.step({
-  "name": "Hitting API with get request on URL",
-  "keyword": "Given ",
-  "rows": [
-    {
-      "cells": [
-        "http://localhost:3000/BudgetDirect_Car/\u003cid\u003e"
-      ]
-    }
-  ]
-});
-formatter.step({
-  "name": "Storing the get call response to file \\APIHttpClient_Response\\GetCallResponse.txt",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "Asserting get call response for \u003cid\u003e",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "id"
-      ]
-    },
-    {
-      "cells": [
-        "rest_BD113"
-      ]
-    }
-  ]
-});
 formatter.scenario({
-  "name": ": API Get call testing",
+  "name": "Assertion on home page",
   "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@GetCall"
-    }
-  ]
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
-  "name": "Hitting API with get request on URL",
-  "rows": [
-    {
-      "cells": [
-        "http://localhost:3000/BudgetDirect_Car/rest_BD113"
-      ]
-    }
-  ],
+  "name": "User navigates to home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "HttpClientAPIStepDef.hitting_API_with_get_request_on_URL(DataTable)"
+  "location": "homePageStepDef.user_navigates_to_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Storing the get call response to file \\APIHttpClient_Response\\GetCallResponse.txt",
+  "name": "Title of the page is displayed as Budget Direct | Insurer of the Year 4 Years in a Row",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "HttpClientAPIStepDef.storing_the_get_call_response_to_file(String)"
+  "location": "homePageStepDef.title_of_the_page_is_displayed_as(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Asserting get call response for rest_BD113",
+  "name": "Logo is directing to home page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "HttpClientAPIStepDef.asserting_get_call_response_for(String)"
+  "location": "homePageStepDef.logo_is_directing_to_home_page()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Money magazine award directs to award page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "homePageStepDef.money_magazine_award_directs_to_award_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User selects \"Make A Claim\" and the tile of the page is displayed as \"Make a Claim - Budget Direct Insurance\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "homePageStepDef.user_selects_and_the_tile_of_the_page_is_displayed_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User clicks \"Contact Us\" and the title of the page is displayed as \"Have a Question? Contact Us - Budget Direct\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "homePageStepDef.user_clicks_and_the_title_of_the_page_is_displayed_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Title of the page \"Money Manager\" is displayed as \"Money Manager - Budget Direct\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "homePageStepDef.title_of_the_page_is_displayed_as(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

@@ -3,82 +3,164 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-27T05:21:08.873Z",
-        "line": 11,
-        "name": ": API Get call testing",
+        "start_timestamp": "2020-12-01T23:20:44.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12970396300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WDManager.browserSetup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Assertion on home page",
         "description": "",
-        "id": "api-testing-using-http-client;:-api-get-call-testing;;2",
+        "id": "home-page;assertion-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 767124099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WDManager.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1277291400,
+              "duration": 2277873000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Hitting API with get request on URL",
+            "line": 3,
+            "name": "User navigates to home page",
             "match": {
-              "location": "HttpClientAPIStepDef.hitting_API_with_get_request_on_URL(DataTable)"
+              "location": "homePageStepDef.user_navigates_to_home_page()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "http://localhost:3000/BudgetDirect_Car/rest_BD113"
-                ]
-              }
-            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 18728700,
+              "duration": 25048400,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Storing the get call response to file \\APIHttpClient_Response\\GetCallResponse.txt",
+            "line": 4,
+            "name": "Title of the page is displayed as Budget Direct | Insurer of the Year 4 Years in a Row",
             "match": {
               "arguments": [
                 {
-                  "val": "\\APIHttpClient_Response\\GetCallResponse.txt",
-                  "offset": 38
+                  "val": "Budget Direct | Insurer of the Year 4 Years in a Row",
+                  "offset": 34
                 }
               ],
-              "location": "HttpClientAPIStepDef.storing_the_get_call_response_to_file(String)"
+              "location": "homePageStepDef.title_of_the_page_is_displayed_as(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5895200,
+              "duration": 1568798200,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Asserting get call response for rest_BD113",
+            "line": 5,
+            "name": "Logo is directing to home page",
+            "match": {
+              "location": "homePageStepDef.logo_is_directing_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2455278000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Money magazine award directs to award page",
+            "match": {
+              "location": "homePageStepDef.money_magazine_award_directs_to_award_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2026520100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects \"Make A Claim\" and the tile of the page is displayed as \"Make a Claim - Budget Direct Insurance\"",
             "match": {
               "arguments": [
                 {
-                  "val": "rest_BD113",
-                  "offset": 32
+                  "val": "\"Make A Claim\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Make a Claim - Budget Direct Insurance\"",
+                  "offset": 69
                 }
               ],
-              "location": "HttpClientAPIStepDef.asserting_get_call_response_for(String)"
+              "location": "homePageStepDef.user_selects_and_the_tile_of_the_page_is_displayed_as(String,String)"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
+          },
           {
-            "name": "@GetCall"
+            "result": {
+              "duration": 3544128801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks \"Contact Us\" and the title of the page is displayed as \"Have a Question? Contact Us - Budget Direct\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Have a Question? Contact Us - Budget Direct\"",
+                  "offset": 67
+                }
+              ],
+              "location": "homePageStepDef.user_clicks_and_the_title_of_the_page_is_displayed_as(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2849189899,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Title of the page \"Money Manager\" is displayed as \"Money Manager - Budget Direct\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Money Manager\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Money Manager - Budget Direct\"",
+                  "offset": 50
+                }
+              ],
+              "location": "homePageStepDef.title_of_the_page_is_displayed_as(String,String)"
+            },
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "API Testing using HTTP Client",
+    "name": "Home Page",
     "description": "",
-    "id": "api-testing-using-http-client",
+    "id": "home-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/BDFramework/FeatureFiles/HttpClientAPI.feature",
+    "uri": "file:src/test/resources/BDFramework/FeatureFiles/homePage.feature",
     "tags": []
   }
 ]

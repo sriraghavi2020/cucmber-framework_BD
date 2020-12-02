@@ -35,8 +35,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>ExtentReports</span>
@@ -45,7 +44,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Nov 27, 2020 04:21:08 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 2, 2020 10:20:44 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -67,16 +66,6 @@
 			</div>
 			<!-- test toggle -->
 			<!-- category toggle -->
-			<div class='chip transparent'>
-				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
-				<i class='material-icons'>local_offer</i> Category
-				</a>
-				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@GetCall</a></li>
-					<li class='divider'></li>
-					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
-				</ul>
-			</div>
 			<!-- category toggle -->
 			<!-- clear filters -->
 			<div class='chip transparent hide'>
@@ -141,7 +130,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -164,8 +153,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>API Testing using HTTP Client</span>
-						<span class='test-time'>Nov 27, 2020 04:21:09 PM</span>
+						<span class='test-name'>Home Page</span>
+						<span class='test-time'>Dec 2, 2020 10:20:44 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -175,32 +164,47 @@
     <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenariooutline node' test-id='2' status='pass'>
-    <div class='category-list'>
-        <span class='category label'>@GetCall</span>
-    </div>
-    <span class='duration right label'>0h 0m 1s+183ms</span>
+<div class='scenario node' test-id='2' status='pass'>
+    <span class='duration right label'>0h 0m 28s+517ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: : API Get call testing</div>
-        <table class='runtime-table table-striped table'><tr><td>id</td></tr><tr><td>rest_BD113</td></tr></table>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Assertion on home page</div>
     </div>
     <ul class='steps'>
-        <li test-id='3' class='node scenario pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>: API Get call testing</div>
-            <ul class='gc steps'>
-                    <li test-id='4' class='gc given pass' status='pass'>
-                        <h6 class="step-name" title="HttpClientAPIStepDef.hitting_API_with_get_request_on_URL(DataTable)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Hitting API with get request on URL</h6>
-                            <div class="node-step"><table class='runtime-table table-striped table'><tr><td>http://localhost:3000/BudgetDirect_Car/rest_BD113</td></tr></table></div>
-                    </li>
-                    <li test-id='5' class='gc then pass' status='pass'>
-                        <h6 class="step-name" title="HttpClientAPIStepDef.storing_the_get_call_response_to_file(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Storing the get call response to file \APIHttpClient_Response\GetCallResponse.txt</h6>
-                            <div class="node-step"></div>
-                    </li>
-                    <li test-id='6' class='gc then pass' status='pass'>
-                        <h6 class="step-name" title="HttpClientAPIStepDef.asserting_get_call_response_for(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Asserting get call response for rest_BD113</h6>
-                            <div class="node-step"></div>
-                    </li>
-            </ul>
+        <li test-id='3' class='node asterisk pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>WDManager.browserSetup()</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='4' class='node given pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.user_navigates_to_home_page()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given User navigates to home page</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='5' class='node then pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.title_of_the_page_is_displayed_as(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Title of the page is displayed as Budget Direct | Insurer of the Year 4 Years in a Row</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='6' class='node then pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.logo_is_directing_to_home_page()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Logo is directing to home page</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='7' class='node then pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.money_magazine_award_directs_to_award_page()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Money magazine award directs to award page</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='8' class='node then pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.user_selects_and_the_tile_of_the_page_is_displayed_as(String,String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User selects "Make A Claim" and the tile of the page is displayed as "Make a Claim - Budget Direct Insurance"</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='9' class='node then pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.user_clicks_and_the_title_of_the_page_is_displayed_as(String,String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User clicks "Contact Us" and the title of the page is displayed as "Have a Question? Contact Us - Budget Direct"</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='10' class='node then pass' status='pass'>
+            <div class="step-name" title="homePageStepDef.title_of_the_page_is_displayed_as(String,String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Title of the page "Money Manager" is displayed as "Money Manager - Budget Direct"</div>
+                <div class="node-step"></div>
+        </li>
+        <li test-id='11' class='node asterisk pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>WDManager.tearDown()</div>
+                <div class="node-step"></div>
         </li>
     </ul>
 </div>
@@ -226,72 +230,7 @@
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><div id='category-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='category-collection' class='category-collection'>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@GetCall</span>
-						<span class='category-status right'>
-						<span class='label pass'>2</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 2</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Nov 27, 2020 04:21:09 PM</td>
-										<td class='linked' test-id='2'>API Testing using HTTP Client.: API Get call testing</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Nov 27, 2020 04:21:09 PM</td>
-										<td class='linked' test-id='3'>API Testing using HTTP Client.: API Get call testing.: API Get call testing</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='category-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -311,49 +250,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Nov 27, 2020 04:21:08 PM</div>
+					<div class='panel-lead'>Dec 2, 2020 10:20:44 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Nov 27, 2020 04:21:10 PM</div>
+			 		<div class='panel-lead'>Dec 2, 2020 10:21:13 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 1s+725ms</div>
-				</div>
-			</div>
-			<div class='col s6'>
-				<div class='card-panel dashboard-categories'>
-					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
-					
-					<table>
-						<tr>
-							<th>Name</th>
-							<th>Passed</th>
-							<th>Failed</th>
-							<th>Others</th>
-							<th>Passed %</th>
-						</tr>
-						<tr>
-							<td>@GetCall</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-					</table>
+					<div class='panel-lead'>0h 0m 28s+742ms</div>
 				</div>
 			</div>
 		</div>
@@ -382,8 +297,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 3,
-				passGrandChild: 3,
+				grandChildCount: 9,
+				passGrandChild: 9,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -396,7 +311,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "API Testing using HTTP Client":1.183
+			        "Home Page":28.517
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

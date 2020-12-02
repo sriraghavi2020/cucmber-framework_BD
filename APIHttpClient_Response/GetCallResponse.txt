@@ -7,5 +7,5 @@ Response as String:{
   "DOB": "01/06/1994"
 }
 Response as JSON Object: {"Customer_Name":"Jung","State":"SA","DOB":"01/06/1994","RegistrationNumber":"KLK-820","id":"rest_BD113"}
-Header information: {Cache-Control=no-cache, ETag=W/"7e-A+hKXFrFzV3Vezk13hLbApM1800", Access-Control-Allow-Credentials=true, X-Content-Type-Options=nosniff, Connection=keep-alive, Vary=Origin, Accept-Encoding, Pragma=no-cache, Expires=-1, Content-Length=126, Date=Fri, 27 Nov 2020 05:21:10 GMT, X-Powered-By=Express, Content-Type=application/json; charset=utf-8}
+Header information: {Cache-Control=no-cache, ETag=W/"7e-A+hKXFrFzV3Vezk13hLbApM1800", Access-Control-Allow-Credentials=true, X-Content-Type-Options=nosniff, Connection=keep-alive, Vary=Origin, Accept-Encoding, Pragma=no-cache, Expires=-1, Content-Length=126, Date=Tue, 01 Dec 2020 05:58:31 GMT, X-Powered-By=Express, Content-Type=application/json; charset=utf-8}
 Asserted getCall response ID-rest_BD113

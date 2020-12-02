@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.756379">
-<testcase classname="API Testing using HTTP Client" name=": API Get call testing" time="1.756379">
-<system-out><![CDATA[Given Hitting API with get request on URL...................................passed
-Then Storing the get call response to file \APIHttpClient_Response\GetCallResponse.txt.passed
-Then Asserting get call response for rest_BD113.............................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.756749">
+<testcase classname="Home Page" name="Assertion on home page" time="28.756749">
+<system-out><![CDATA[Given User navigates to home page...........................................passed
+Then Title of the page is displayed as Budget Direct | Insurer of the Year 4 Years in a Row.passed
+Then Logo is directing to home page.........................................passed
+Then Money magazine award directs to award page.............................passed
+Then User selects "Make A Claim" and the tile of the page is displayed as "Make a Claim - Budget Direct Insurance".passed
+Then User clicks "Contact Us" and the title of the page is displayed as "Have a Question? Contact Us - Budget Direct".passed
+Then Title of the page "Money Manager" is displayed as "Money Manager - Budget Direct".passed
 ]]></system-out>
 </testcase>
 </testsuite>
